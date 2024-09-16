@@ -1,0 +1,63 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+}
+
+.sign-up-modal,
+.login-modal {
+  font-family: monospace;
+  text-align: center;
+  border-radius: 10px;
+  height: 300px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  padding: 7px;
+  gap: 7px;
+  border: 1px solid;
+  justify-content: center;
+  background-color: beige;
+}
+
+.modal-title {
+  font-size: larger;
+  margin: 30px;
+}
+
+.modal-input {
+  margin: 20px;
+  padding: 5px;
+  width: 350px;
+  position: relative;
+  border: 1px solid;
+  border-radius: 5px;
+  display: flex;
+  font-family: monospace;
+}
+
+.modal-button {
+  margin: 20px;
+  padding: 5px;
+  width: 362px;
+  position: relative;
+  border: 1px solid;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: monospace;
+  background-color: aquamarine;
+}
